@@ -1,0 +1,129 @@
+# Brainstorming and Classification for Zomball
+---
+
+## **Nouns**
+- Zomball Game  
+- Player  
+- Gun  
+- Projectile  
+- Enemy  
+- Health  
+- Power-up  
+- Health Pack  
+- Game System  
+- Difficulty Level  
+- Score  
+- Game World  
+- Keyboard Inputs  
+- Mouse Inputs  
+- Collision  
+- Spawn Rate  
+- Move Speed  
+- Damage  
+- Board  
+- Tile  
+
+---
+
+## **Adjectives**
+- Movable  
+- Rotating  
+- Different (guns)  
+- Increased (speed, difficulty)  
+- Random (spawn locations)  
+- Temporary (effects)  
+
+---
+
+## **Verb-Noun Phrases**
+- Move player  
+- Rotate gun  
+- Shoot projectile  
+- Damage enemy  
+- Collect power-up  
+- Restore health  
+- Increase difficulty  
+- Update score  
+- Spawn enemy  
+- Check collision  
+- Apply effects  
+
+---
+
+## **Aggregation/Composition Phrases**
+- Player has a gun  
+- Gun shoots projectiles  
+- Enemy has health  
+- Game System manages difficulty  
+- Power-up provides effects  
+- Health Pack restores health  
+- Board contains tiles  
+
+---
+
+## **Classification**
+
+### **Data-Field**
+- Score  
+- Health  
+- Damage  
+- Spawn Rate  
+- Move Speed  
+
+### **Class**
+- Zomball Game  
+- Player  
+- Gun  
+- Projectile  
+- Enemy  
+- Power-up  
+- Health Pack  
+- Game System  
+- Difficulty Level  
+- Board  
+- Tile  
+
+### **Aggregation/Composition**
+- Player **has a** Gun  
+- Gun **shoots** Projectile  
+- Enemy **has** Health  
+- Game System **manages** Difficulty Level  
+- Power-up **provides** Effects  
+- Health Pack **restores** Health  
+- Board **contains** Tiles  
+
+### **Verbs**
+- Move  
+- Rotate  
+- Shoot  
+- Damage  
+- Collect  
+- Restore  
+- Increase  
+- Update  
+- Spawn  
+- Check  
+- Apply  
+
+### **Noun Phrases**
+- Keyboard Inputs  
+- Mouse Inputs  
+- Collision Detection  
+- Random Spawn Locations  
+- Temporary Effects  
+
+### **Association**
+- Player **moves** using Keyboard Inputs  
+- Player **rotates** Gun using Mouse Inputs  
+- Player **shoots** Projectile  
+- Projectile **damages** Enemy  
+- Player **collects** Power-up  
+- Power-up **applies** Effects  
+- Player **collects** Health Pack  
+- Health Pack **restores** Health  
+- Game System **increases** Difficulty Level  
+- Game System **spawns** Enemy  
+- Game System **checks** Collision  
+- Board **contains** Tiles  
+
+---
