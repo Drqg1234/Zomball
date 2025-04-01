@@ -9,7 +9,7 @@ Danny Rospierski <br>
 **Date: 17-02-2025**
 <br>
 
-![Zomball concept art](https://github.com/UTDClassroomOrg/courseproject-cse3354-006-s25-cse3354-006-s25_group16/blob/main/zomball_concept_art.jpeg)
+![Zomball concept art](https://github.com/Drqg1234/Zomball/blob/main/zomball_concept_art.jpeg?raw=true)
 
 # 2. Summary
 
